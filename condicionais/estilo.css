@@ -1,0 +1,33 @@
+body {
+  background-color: navy;
+  display: flex;
+  justify-content: center;
+}
+
+.caixa-form {
+  background-color: white;
+  width: 280px;
+  /* largura */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+}
+
+form {
+  margin: 20px;
+  /*bordas*/
+}
+
+input {
+  margin: 8px;
+  /* espaço externo */
+  padding: 8px;
+  /* espaço interno */
+}
+
+.caixa-form .botao {
+  background-color: #00c700;
+  color: white;
+  cursor: pointer;
+}

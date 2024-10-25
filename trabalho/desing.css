@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.box{
+  background-color: #ebebeb;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-principal{
+  color: white;
+  background-color: #6e00db;
+  text-align: center;
+  margin: 1 6px;
+  padding: 25px;
+}
+
+.casas{
+  color: white;
+  background-color: #a142ff;
+  text-align: center;
+  margin: 1 6px;
+  padding: 8px;
+}
+
+.casas span{
+  padding: 15px;
+}
+
+.conteudo{
+  background-color: white;
+  margin: 25px;
+  padding: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 8px;
+}
